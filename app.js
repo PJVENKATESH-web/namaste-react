@@ -1,5 +1,8 @@
+import React from "react";
+import ReactDOM  from "react-dom/client";
+
 const heading = React.createElement("h1", {id:"heading"},"Hello world from React!");
-console.log(heading); //here in react heading is object
+console.log(heading); //here in react heading is  object
 const root=ReactDOM.createRoot(document.getElementById("root"));//root is the place the whole code will render
 root.render(heading); //object will get render by the root element that convert into the html code
 

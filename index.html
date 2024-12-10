@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=" .css">
+</head>
+<body>  
+    <!-- creating the h1 from html
+    <div id="root">
+        <h1>Hello World! from html</h1>
+    </div> -->
+    <!-- creating the h1 from javascript
+    <div id="root"></div>
+    <script>
+        const heading=document.createElement("h1");
+        heading.innerHTML="hello world! from Javascript";
+        const root= document.getElementById("root");
+        root.appendChild(heading);
+    </script> -->
+
+    <!-- creating the h1 from react
+    <div id="root"></div>
+    
+
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script>
+        const heading = React.createElement("h1", {},"Hello world from React!");
+        const root=ReactDOM.createRoot(document.getElementById("root"));//root is the place the whole code will render
+        root.render(heading)
+    </script> -->
+
+    <div id="root">
+        <!-- <h1>I'm Jhonson</h1> --here the h1 will replace{not appended} the data while root got rendered from the react -->
+    </div>
+    
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
